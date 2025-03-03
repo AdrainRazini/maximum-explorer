@@ -10,8 +10,8 @@ if playerGui:FindFirstChild("ModMenuGui") then
 end
 
 -- URL da API do GitHub para listar os scripts
-local GITHUB_USER = "SEU_USUARIO"
-local GITHUB_REPO = "SEU_REPOSITORIO"
+local GITHUB_USER = "AdrainRazini"
+local GITHUB_REPO = "maximum-explorer"
 local SCRIPTS_FOLDER_URL = "https://api.github.com/repos/" .. GITHUB_USER .. "/" .. GITHUB_REPO .. "/contents/scripts"
 
 -- Função para carregar scripts dinamicamente
